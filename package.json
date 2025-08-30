@@ -1,0 +1,45 @@
+{
+  "name": "kant-akademi",
+  "version": "1.0.0",
+  "description": "Kant Akademi - Modern Educational Platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "@headlessui/react": "^1.7.0",
+    "@heroicons/react": "^2.0.0",
+    "framer-motion": "^10.16.0",
+    "react-hook-form": "^7.47.0",
+    "zod": "^3.22.0",
+    "@hookform/resolvers": "^3.3.0",
+    "next-auth": "^4.24.0",
+    "prisma": "^5.6.0",
+    "@prisma/client": "^5.6.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.0",
+    "multer": "^1.4.5",
+    "sharp": "^0.32.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "keywords": ["education", "platform", "kant", "akademi"],
+  "author": "Kant Akademi",
+  "license": "MIT"
+}
